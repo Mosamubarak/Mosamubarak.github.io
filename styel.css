@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #0a2679;
+    background-color: #005b9a;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -44,8 +44,8 @@ section {
 
 footer {
     background-color: #005b9a;
-    color: white;
-    text-align: center;
+    color: rgb(255, 255, 255);
+    text-align: left;
     padding: 10px 0;
     position: fixed;
     width: 100%;
@@ -89,4 +89,32 @@ img {
     border-radius: 5px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
     z-index: 1000; 
+}
+
+
+
+
+
+footer {
+    margin-top: 20px; 
+    text-align: left;
+    background-color: 005b9a(243, 92%, 36%); 
+    padding: 5px 0; 
+    font-size: 12px; 
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #005b9a; 
+    z-index: 1000; 
+    padding: 10px 0; 
+
+header {
+    padding-top: 60px; 
+}
+
 }
