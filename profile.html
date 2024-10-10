@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profiel - Saeed</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styel.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .profile-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #f0f0f0;
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .profile-header img {
+    width: 210px;  
+    height: 300px;  
+    border-radius: 0%;  
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+        .profile-header .intro {
+            max-width: 60%;
+        }
+
+        .intro h2 {
+            margin-top: 0;
+            color: #005b9a;
+        }
+
+        .intro p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        .details {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+        }
+
+        .details ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .details ul li {
+            background-color: #f9f9f9;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-left: 5px solid #005b9a;
+            font-weight: bold;
+        }
+
+        .social-links a {
+            color: #005b9a;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 20px;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #003b6d;
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #999;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .profile-header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .profile-header .intro {
+                max-width: 100%;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Profielpagina</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Profiel</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="profile-header">
+        <img src="foto/mepic.jpg" alt="Foto van Saeed">
+        <div class="intro">
+            <h2>Over Mij</h2>
+            <p>Mijn naam is Saeed, ik ben 22 jaar oud en studeer HBO-ICT aan de HZ University of Applied Sciences. Mijn passie ligt bij technologie en innovatie, en ik ben altijd op zoek naar nieuwe uitdagingen op het gebied van softwareontwikkeling en netwerkbeheer.</p>
+        </div>
+    </section>
+
+    <section class="details">
+        <h2>Persoonlijke Kenmerken</h2>
+        <ul>
+            <li>Rustig</li>
+            <li>Geduldig</li>
+            <li>Verlegen</li>
+            <li>Passie voor technologie</li>
+            <li>Innovatief denken</li>
+        </ul>
+
+        <h2>Interesses en Hobby's</h2>
+        <p>In mijn vrije tijd hou ik van sporten, vooral voetbal en fitness. Daarnaast besteed ik veel tijd aan gamen, lezen van fantasy en verhalen boeken, en koken.</p>
+    </section>
+
+    <section class="details social-links">
+        <h2>Connect met mij</h2>
+        <p>Bekijk mijn <a href="https://github.com/Mosamubarak/SaeedPCO" target="_blank">GitHub-profiel</a></p>
+        <p>Volg me op <a href="https://www.instagram.com/0118.saeed/" target="_blank">Instagram</a> of <a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a>.</p>
+    </section>
+
+    <footer>
+      
+    </footer>
+</body>
+</html>
